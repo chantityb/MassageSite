@@ -1,0 +1,114 @@
+/*Styles for Massage by Tia Project*/
+
+body {
+	background: #F1F0D1;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	font-size: 18px;
+	overflow: auto;
+}
+
+/*styling for all header tags on the page*/
+h1,h2,h3 {
+	text-align: center;
+	padding-left: 5%;
+	color: #878E63;
+}
+
+/*styling for all <p> tags*/
+p {
+	padding: 2%;
+	color: #878E63;
+}
+
+/*styling for all images*/
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+/*<div> container id #wrapper styling*/
+#wrapper {
+	margin: 0 auto;
+	max-width: 1020px;
+	width: 98%;
+	background: #FEFBE8;
+	border: 1px solid #878E63;
+	border-radius: 2px;
+	box-shadow: 0 0 10px 0 rgba(12, 3, 25, 0.8);
+}
+
+/*<div> container id #callout styling*/
+#callout {
+	width: 100%;
+	height: auto;
+	background: #878E63;
+	overflow: hidden;
+}
+
+/*styling for <p> tag inside of <div> with #callout id only*/
+#callout p {
+	text-align: right;
+	font-size: 13px;
+	padding: 0.1% 5% 0 0;
+	color: #F1F0D1;
+}
+
+/*removes link underline and changes color of text*/
+#callout p a {
+	color: #F1F0D1
+	text-decoration: none;
+}
+
+header {
+	width: 96%;
+	min-height: 125px;
+	padding: 5px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 50px;
+}
+
+nav ul li {
+	float: left;
+	border: 1px solid #878E63;
+	width: 15%;
+}
+
+nav ul li a {
+	background: #F1F0D1;
+	display: block;
+	padding: 5% 12%;
+	font-weight: bold;
+	font-size: 18px;
+	color: #878E63;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav ul li a:hover, nav ul li.active a {
+	background-color: #878E63;
+	color: #F1F0D1;
+}
+
+.banner img {
+	width: 100%;
+	border-top: 1px solid #878E63;
+	border-bottom: 1px solid #878E63;
+}
+
+.left-col {
+	width: 55%;
+	float: left;
+	margin: -2% 1% 1% 1%;
+}
+
+.sidebar {
+	width: 40%;
+	float: right;
+}
